@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7EAC55F2E2542A6006FF0EC /* CustomUIButtonExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC55E2E2542A6006FF0EC /* CustomUIButtonExampleApp.swift */; };
+		A7EAC5612E2542A6006FF0EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC5602E2542A6006FF0EC /* ContentView.swift */; };
+		A7EAC5632E2542A9006FF0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EAC5622E2542A9006FF0EC /* Assets.xcassets */; };
+		A7EAC5662E2542A9006FF0EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EAC5652E2542A9006FF0EC /* Preview Assets.xcassets */; };
+		A7EAC5702E2542A9006FF0EC /* CustomUIButtonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC56F2E2542A9006FF0EC /* CustomUIButtonExampleTests.swift */; };
+		A7EAC57A2E2542A9006FF0EC /* CustomUIButtonExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC5792E2542A9006FF0EC /* CustomUIButtonExampleUITests.swift */; };
+		A7EAC57C2E2542A9006FF0EC /* CustomUIButtonExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC57B2E2542A9006FF0EC /* CustomUIButtonExampleUITestsLaunchTests.swift */; };
+		A7EAC5892E2542E7006FF0EC /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC5882E2542E7006FF0EC /* GradientButton.swift */; };
+		A7EAC58B2E255766006FF0EC /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC58A2E255766006FF0EC /* InfoCard.swift */; };
+		A7EAC58D2E255976006FF0EC /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAC58C2E255976006FF0EC /* ProfileCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7EAC56C2E2542A9006FF0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7EAC5532E2542A6006FF0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7EAC55A2E2542A6006FF0EC;
+			remoteInfo = CustomUIButtonExample;
+		};
+		A7EAC5762E2542A9006FF0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7EAC5532E2542A6006FF0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7EAC55A2E2542A6006FF0EC;
+			remoteInfo = CustomUIButtonExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7EAC55B2E2542A6006FF0EC /* CustomUIButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUIButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EAC55E2E2542A6006FF0EC /* CustomUIButtonExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButtonExampleApp.swift; sourceTree = "<group>"; };
+		A7EAC5602E2542A6006FF0EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7EAC5622E2542A9006FF0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7EAC5652E2542A9006FF0EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7EAC56B2E2542A9006FF0EC /* CustomUIButtonExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomUIButtonExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EAC56F2E2542A9006FF0EC /* CustomUIButtonExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButtonExampleTests.swift; sourceTree = "<group>"; };
+		A7EAC5752E2542A9006FF0EC /* CustomUIButtonExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomUIButtonExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EAC5792E2542A9006FF0EC /* CustomUIButtonExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButtonExampleUITests.swift; sourceTree = "<group>"; };
+		A7EAC57B2E2542A9006FF0EC /* CustomUIButtonExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIButtonExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7EAC5882E2542E7006FF0EC /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		A7EAC58A2E255766006FF0EC /* InfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		A7EAC58C2E255976006FF0EC /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7EAC5582E2542A6006FF0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAC5682E2542A9006FF0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAC5722E2542A9006FF0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7EAC5522E2542A6006FF0EC = {
+			isa = PBXGroup;
+			children = (
+				A7EAC55D2E2542A6006FF0EC /* CustomUIButtonExample */,
+				A7EAC56E2E2542A9006FF0EC /* CustomUIButtonExampleTests */,
+				A7EAC5782E2542A9006FF0EC /* CustomUIButtonExampleUITests */,
+				A7EAC55C2E2542A6006FF0EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7EAC55C2E2542A6006FF0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAC55B2E2542A6006FF0EC /* CustomUIButtonExample.app */,
+				A7EAC56B2E2542A9006FF0EC /* CustomUIButtonExampleTests.xctest */,
+				A7EAC5752E2542A9006FF0EC /* CustomUIButtonExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7EAC55D2E2542A6006FF0EC /* CustomUIButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAC55E2E2542A6006FF0EC /* CustomUIButtonExampleApp.swift */,
+				A7EAC58C2E255976006FF0EC /* ProfileCard.swift */,
+				A7EAC5602E2542A6006FF0EC /* ContentView.swift */,
+				A7EAC58A2E255766006FF0EC /* InfoCard.swift */,
+				A7EAC5882E2542E7006FF0EC /* GradientButton.swift */,
+				A7EAC5622E2542A9006FF0EC /* Assets.xcassets */,
+				A7EAC5642E2542A9006FF0EC /* Preview Content */,
+			);
+			path = CustomUIButtonExample;
+			sourceTree = "<group>";
+		};
+		A7EAC5642E2542A9006FF0EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAC5652E2542A9006FF0EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7EAC56E2E2542A9006FF0EC /* CustomUIButtonExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAC56F2E2542A9006FF0EC /* CustomUIButtonExampleTests.swift */,
+			);
+			path = CustomUIButtonExampleTests;
+			sourceTree = "<group>";
+		};
+		A7EAC5782E2542A9006FF0EC /* CustomUIButtonExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EAC5792E2542A9006FF0EC /* CustomUIButtonExampleUITests.swift */,
+				A7EAC57B2E2542A9006FF0EC /* CustomUIButtonExampleUITestsLaunchTests.swift */,
+			);
+			path = CustomUIButtonExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7EAC55A2E2542A6006FF0EC /* CustomUIButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EAC57F2E2542A9006FF0EC /* Build configuration list for PBXNativeTarget "CustomUIButtonExample" */;
+			buildPhases = (
+				A7EAC5572E2542A6006FF0EC /* Sources */,
+				A7EAC5582E2542A6006FF0EC /* Frameworks */,
+				A7EAC5592E2542A6006FF0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomUIButtonExample;
+			productName = CustomUIButtonExample;
+			productReference = A7EAC55B2E2542A6006FF0EC /* CustomUIButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7EAC56A2E2542A9006FF0EC /* CustomUIButtonExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EAC5822E2542A9006FF0EC /* Build configuration list for PBXNativeTarget "CustomUIButtonExampleTests" */;
+			buildPhases = (
+				A7EAC5672E2542A9006FF0EC /* Sources */,
+				A7EAC5682E2542A9006FF0EC /* Frameworks */,
+				A7EAC5692E2542A9006FF0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EAC56D2E2542A9006FF0EC /* PBXTargetDependency */,
+			);
+			name = CustomUIButtonExampleTests;
+			productName = CustomUIButtonExampleTests;
+			productReference = A7EAC56B2E2542A9006FF0EC /* CustomUIButtonExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7EAC5742E2542A9006FF0EC /* CustomUIButtonExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EAC5852E2542A9006FF0EC /* Build configuration list for PBXNativeTarget "CustomUIButtonExampleUITests" */;
+			buildPhases = (
+				A7EAC5712E2542A9006FF0EC /* Sources */,
+				A7EAC5722E2542A9006FF0EC /* Frameworks */,
+				A7EAC5732E2542A9006FF0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EAC5772E2542A9006FF0EC /* PBXTargetDependency */,
+			);
+			name = CustomUIButtonExampleUITests;
+			productName = CustomUIButtonExampleUITests;
+			productReference = A7EAC5752E2542A9006FF0EC /* CustomUIButtonExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7EAC5532E2542A6006FF0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A7EAC55A2E2542A6006FF0EC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A7EAC56A2E2542A9006FF0EC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7EAC55A2E2542A6006FF0EC;
+					};
+					A7EAC5742E2542A9006FF0EC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A7EAC55A2E2542A6006FF0EC;
+					};
+				};
+			};
+			buildConfigurationList = A7EAC5562E2542A6006FF0EC /* Build configuration list for PBXProject "CustomUIButtonExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7EAC5522E2542A6006FF0EC;
+			productRefGroup = A7EAC55C2E2542A6006FF0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7EAC55A2E2542A6006FF0EC /* CustomUIButtonExample */,
+				A7EAC56A2E2542A9006FF0EC /* CustomUIButtonExampleTests */,
+				A7EAC5742E2542A9006FF0EC /* CustomUIButtonExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7EAC5592E2542A6006FF0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAC5662E2542A9006FF0EC /* Preview Assets.xcassets in Resources */,
+				A7EAC5632E2542A9006FF0EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAC5692E2542A9006FF0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAC5732E2542A9006FF0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7EAC5572E2542A6006FF0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAC58D2E255976006FF0EC /* ProfileCard.swift in Sources */,
+				A7EAC5612E2542A6006FF0EC /* ContentView.swift in Sources */,
+				A7EAC55F2E2542A6006FF0EC /* CustomUIButtonExampleApp.swift in Sources */,
+				A7EAC5892E2542E7006FF0EC /* GradientButton.swift in Sources */,
+				A7EAC58B2E255766006FF0EC /* InfoCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAC5672E2542A9006FF0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAC5702E2542A9006FF0EC /* CustomUIButtonExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EAC5712E2542A9006FF0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EAC57C2E2542A9006FF0EC /* CustomUIButtonExampleUITestsLaunchTests.swift in Sources */,
+				A7EAC57A2E2542A9006FF0EC /* CustomUIButtonExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7EAC56D2E2542A9006FF0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7EAC55A2E2542A6006FF0EC /* CustomUIButtonExample */;
+			targetProxy = A7EAC56C2E2542A9006FF0EC /* PBXContainerItemProxy */;
+		};
+		A7EAC5772E2542A9006FF0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7EAC55A2E2542A6006FF0EC /* CustomUIButtonExample */;
+			targetProxy = A7EAC5762E2542A9006FF0EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A7EAC57D2E2542A9006FF0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7EAC57E2E2542A9006FF0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7EAC5802E2542A9006FF0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomUIButtonExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarshalM.CustomUIButtonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7EAC5812E2542A9006FF0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomUIButtonExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarshalM.CustomUIButtonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7EAC5832E2542A9006FF0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarshalM.CustomUIButtonExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomUIButtonExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomUIButtonExample";
+			};
+			name = Debug;
+		};
+		A7EAC5842E2542A9006FF0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarshalM.CustomUIButtonExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomUIButtonExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomUIButtonExample";
+			};
+			name = Release;
+		};
+		A7EAC5862E2542A9006FF0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarshalM.CustomUIButtonExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomUIButtonExample;
+			};
+			name = Debug;
+		};
+		A7EAC5872E2542A9006FF0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HarshalM.CustomUIButtonExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomUIButtonExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7EAC5562E2542A6006FF0EC /* Build configuration list for PBXProject "CustomUIButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAC57D2E2542A9006FF0EC /* Debug */,
+				A7EAC57E2E2542A9006FF0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EAC57F2E2542A9006FF0EC /* Build configuration list for PBXNativeTarget "CustomUIButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAC5802E2542A9006FF0EC /* Debug */,
+				A7EAC5812E2542A9006FF0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EAC5822E2542A9006FF0EC /* Build configuration list for PBXNativeTarget "CustomUIButtonExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAC5832E2542A9006FF0EC /* Debug */,
+				A7EAC5842E2542A9006FF0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EAC5852E2542A9006FF0EC /* Build configuration list for PBXNativeTarget "CustomUIButtonExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EAC5862E2542A9006FF0EC /* Debug */,
+				A7EAC5872E2542A9006FF0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7EAC5532E2542A6006FF0EC /* Project object */;
+}
